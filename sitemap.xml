@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://drshishu.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://drshishu.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://drshishu.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://drshishu.com/topics/</loc>
     <priority>0</priority>
   </url>
   
