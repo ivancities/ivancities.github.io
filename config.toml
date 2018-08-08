@@ -1,66 +1,40 @@
+MetaDataFormat = "toml"
+baseurl = "https://drshishu.com"
+copyright = "Copyright (c) 2018, Shi Shu; all rights reserved."
+disqusShortname = ""
+googleAnalytics = ""
 languageCode = "zh-CN"
 title = "Shi Shu's Personal Website"
-baseurl = "https://drshishu.com"
-disqusShortname = ""
-copyright = "Copyright (c) 2018, Shi Shu; all rights reserved."
-MetaDataFormat = "toml"
-googleAnalytics = ""
-
 [author]
-    name = "Shi Shu"
-
+name = "Shi Shu"
 [indexes]
-    tag = "tags"
-    topic = "topics"
-
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
-
+tag = "tags"
+topic = "topics"
 [params]
-  name = "Shi Shu"
-  about = "Welcome to my personal website !"
-  copyright = "2018"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = ""
-
+about = "Welcome to my personal website !"
+bg_scroll = ""
+copyright = "2018 Shi Shu"
+name = "Shi Shu"
 [[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "https://drshishu.com"
-  title = "E-mail"
-
+icon = "envelope-o"
+link = "https://drshishu.com"
+medium = "Email"
+title = "E-mail"
 [[params.social]]
-  medium = "Blog"
-  icon = "book"
-  link = "https://drshishu.com"
-  title = "Blog"
-
+icon = "book"
+link = "https://drshishu.com"
+medium = "Blog"
+title = "Blog"
 [[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "https://drshishu.com"
-  title = "Github"
-
-  #[[params.social]]
- # medium = "Twitter"
- # icon = "twitter"
-#  link = "#"
-
-#[[params.social]]
-#  medium = "Facebook"
-#  icon = "facebook"
-#  link = "#"
-
-#[[params.social]]
- # medium = "Dribbble"
-#  icon = "dribbble"
-#  link = "#"
-
+icon = "github"
+link = "https://drshishu.com"
+medium = "Github"
+title = "Github"
+[privacy.googleAnalytics]
+anonymizeIP = true
+respectDoNotTrack = true
+useSessionStorage = true
+[privacy.twitter]
+enableDNT = true
+[privacy.youtube]
+privacyEnhanced = true
