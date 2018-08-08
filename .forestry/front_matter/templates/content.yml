@@ -4,3 +4,5 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  default: drshishu.com
+- type: tag_list
