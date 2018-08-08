@@ -10,3 +10,5 @@ fields:
   name: how_to
   label: how to
   description: how to use
+pages:
+- content/first-page.md
