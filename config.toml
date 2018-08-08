@@ -1,0 +1,66 @@
+languageCode = "zh-CN"
+title = "Shi Shu's Personal Website"
+baseurl = "https://drshishu.com"
+disqusShortname = ""
+copyright = "Copyright (c) 2018, Shi Shu; all rights reserved."
+MetaDataFormat = "toml"
+googleAnalytics = ""
+
+[author]
+    name = "Shi Shu"
+
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[params]
+  name = "Shi Shu"
+  about = "Welcome to my personal website !"
+  copyright = "2018"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "https://drshishu.com"
+  title = "E-mail"
+
+[[params.social]]
+  medium = "Blog"
+  icon = "book"
+  link = "https://drshishu.com"
+  title = "Blog"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://drshishu.com"
+  title = "Github"
+
+  #[[params.social]]
+ # medium = "Twitter"
+ # icon = "twitter"
+#  link = "#"
+
+#[[params.social]]
+#  medium = "Facebook"
+#  icon = "facebook"
+#  link = "#"
+
+#[[params.social]]
+ # medium = "Dribbble"
+#  icon = "dribbble"
+#  link = "#"
+
